@@ -19,6 +19,5 @@ def total_salary(path):
         return 0, 0
 
 # Використання функції
-path_to_file = "path/to/salary_file.txt"
-total, average = total_salary(path_to_file)
+total, average = total_salary("task_01/salary_file.txt")
 print(f"Загальна сума заробітної плати: {total}, Середня заробітна плата: {average}")
